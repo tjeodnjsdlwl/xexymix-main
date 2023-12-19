@@ -1,0 +1,133 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.footer .sns-item [class*="link-"],
+.sc-insta .link-insta,
+.sc-md .btn-autoplay,
+.sc-video .video-area .btn-close,
+.main .item-slide .control-area [class*="btn-"],
+.group-search .search-area .btn-search::before,
+.group-hamburger .sns-item [class*="link-"]::before,
+.header .group-menu .btn-mypage .link-join,
+.header .group-menu2 [class*="btn-"],
+.header .group-menu [class*="btn-"]{
+    background-image: url(../images/sp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 241px;
+}
+
+
+.group-hamburger .menu-list [class*="btn-"]::before,
+.header .gnb2 [class*="link-"]::before{
+    background-image: url(../images/sp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 120.5px;
+}
+
+.sc-review .link-more::after,
+.sc-video .btn-video::before,
+.group-hamburger .btn-close,
+.header .gnb2 .btn-all::before{
+    background-image: url(../images/sp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 160.66px;
+}
+
+.group-search .btn-close{
+    background-image: url(../images/close-black.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+
+.group-hamburger .menu-area [class*="btn-"]::after{
+    background-image: url(../images/sp-bg1.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+
+.control-bar .more-item [class*="ic-"],
+.control-bar [class*="btn-"]{
+    background-image: url(../images/sp-control.png);
+    background-repeat: no-repeat;
+    background-size: 216.5px;
+}
+
+
+.header .gnb2 .all-item .link-swim,
+.header .gnb2 .link-bcklabel,
+.header .gnb2 .link-kids,
+.header .gnb2 .link-mens,
+.header .gnb2 .link-golf,
+.header .gnb2 .link-women{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.group-hamburger .menu-item>[class*="btn-"]::before,
+.header .gnb2 .all-item .link-swim::before,
+.header .gnb2 .link-women::before,
+.header .gnb2 .link-mens::before,
+.header .gnb2 .link-golf::before,
+.header .gnb2 .link-kids::before,
+.header .gnb2 .link-bcklabel::before{
+    display: block;
+    content: '';
+    width: 12px;
+    height: 12px;
+}
+
+
+.group-hamburger .customer-list,
+.group-hamburger .tennis-list,
+.group-hamburger .menu-list,
+.group-hamburger .kids-list,
+.group-hamburger .golf-list,
+.group-hamburger .mens-list,
+.group-hamburger .women-list{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+
+
+.group-hamburger .comm-list.on,
+.group-hamburger .teacher-list.on,
+.group-hamburger .menu-list .swim-list.on,
+.group-hamburger .menu-list .black-list.on,
+.group-hamburger .menu-list .kids-list.on,
+.group-hamburger .menu-list .golf-list.on,
+.group-hamburger .kids-wrap .kids-list ul.on,
+.group-hamburger .golf-wrap .golf-list ul.on,
+.group-hamburger .menu-area .mens-list ul.on,
+.group-hamburger .menu-area .women-item ul.on{
+    display: block;
+}
+
+.group-hamburger .customer-list ul li a,
+.group-hamburger .menu-list ul li a,
+.group-hamburger .kids-wrap .kids-item li a,
+.group-hamburger .golf-wrap .golf-item li a,
+.group-hamburger .menu-area .mens-item li a,
+.group-hamburger .menu-area .women-item li a{
+    padding: 10px 0;
+    color: #555;
+    font-size: 13px;
+    display: block;
+}
+.headline{
+    color: #000;
+    font-size: 23px;
+    padding-left: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
